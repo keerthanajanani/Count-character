@@ -1,0 +1,30 @@
+# Count-character
+import java.io.*;
+import java.util.*;
+public class Count character
+{
+public static void main(String args[])throws IOException
+{
+int count1=0,count2=0,count3=0,i;
+int n=s.length();
+char []a=s.toCharArray();
+BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
+System.out.println("Enter the input String");
+String s=br.readLine();
+for(i=0;i<n;i++)
+{
+if(Character is Alphabetic(c[i]))
+count1++;
+else if(character.Digit(c[i]))
+count2++;
+else
+count3++;
+}
+System.out.println("The number of Character is given the string is : "+count1);
+System.out.println("The number of Digit is given the string is : "+count2);
+System.out.println("The number of Alphanumerical is given the string is : "+count3);
+}
+}
+
+
+
